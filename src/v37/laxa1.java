@@ -9,8 +9,10 @@ public class laxa1 {
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("Vad heter du?");
-		
 		String namn1 = input.nextLine();
+		
+		System.out.println("Hur gammal är du?");
+		String alder = input.nextLine();
 		
 	}
 
