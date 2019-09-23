@@ -21,6 +21,10 @@ public class laxa2 {
 		tal4 = input.nextInt();
 		tal5 = input.nextInt();
 		
+		if (tal1 >=tal2 & tal1 >=tal3 & tal1 >=tal4 & tal1 >=tal5);{
+		System.out.println("Högsta talet:" + tal1);
+		}
+		
 
 		
 		}
