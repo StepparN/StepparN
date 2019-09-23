@@ -21,10 +21,21 @@ public class laxa2 {
 		tal4 = input.nextInt();
 		tal5 = input.nextInt();
 		
-		if (tal1 >=tal2 & tal1 >=tal3 & tal1 >=tal4 & tal1 >=tal5);{
+		if (tal1 >=tal2 & tal1 >=tal3 & tal1 >=tal4 & tal1 >=tal5) {
 		System.out.println("Högsta talet:" + tal1);
 		}
-		
+		else if (tal2 >=tal1 & tal2 >=tal3 & tal2 >=tal4 & tal2 >=tal5) {
+		System.out.println("Högsta talet:" + tal2);
+		}
+		else if (tal3>=tal1 & tal3 >=tal2 & tal3 >=tal4 & tal3 >=tal5) {
+		System.out.println("Högsta talet:" + tal3);
+		}
+		else if (tal4 >=tal1 & tal4 >=tal2 & tal4 >=tal3 & tal4 >=tal5) {
+		System.out.println("Högsta talet:" + tal4);
+		}
+		else if (tal5 >=tal1 & tal5 >=tal2 & tal5 >=tal3 & tal5 >=tal4) {
+		System.out.println("Högsta talet:" + tal5);
+		}
 
 		
 		}
