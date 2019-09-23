@@ -6,16 +6,25 @@ public class laxa2 {
 
 	public static void main(String[] args) {
 		
-		Scanner input = new Scanner(System.in);
+		int tal1 = 0;
+		int tal2 = 0;
+		int tal3 = 0;
+		int tal4 = 0;
+		int tal5 = 0;
 		
+		Scanner input = new Scanner(System.in);
+
 		System.out.println("Skriv in 5 heltal");
-		String tal1 = input.nextLine();
-		String tal2 = input.nextLine();
-		String tal3 = input.nextLine();
-		String tal4 = input.nextLine();
-		String tal5 = input.nextLine();
+		tal1 = input.nextInt();
+		tal2 = input.nextInt();
+		tal3 = input.nextInt();
+		tal4 = input.nextInt();
+		tal5 = input.nextInt();
+		
+
+		
+		}
 		
 
 	}
 
-}
