@@ -1,14 +1,10 @@
 package Kattis;
 
-import java.util.Scanner;
-
-public class R2 {
+public class laxa4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		
-		
 	}
 
 }
