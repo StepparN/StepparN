@@ -19,9 +19,13 @@ public class fizzbuzz {
 				System.out.println("Fizz");
 				
 			}else if (i % y == 0) {
-				
+				System.out.println("Buzz");
+			}else {
+				System.out.println(i);
 			}
 
 		}
+	}
+}
 
 
