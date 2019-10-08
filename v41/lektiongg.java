@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class uppgift2 {
+public class lektiongg {
 
 	public static void main(String[] args) {
 
