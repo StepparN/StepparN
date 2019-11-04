@@ -13,8 +13,9 @@ public class laxa5 {
 		System.out.println("HAHAHAHAHAHA");
 	}
 	
-	public static void max(int tal1, int tal2) {
+	public static int max(int tal1, int tal2) {
 		
+		return tal2;
 		
 	}
 	
