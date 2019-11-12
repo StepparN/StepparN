@@ -23,7 +23,12 @@ public class mastring {
 	*/	
 		System.out.println(mening.length());
 		System.out.println(mening.toUpperCase());
-				
+		
+		
+		
+		
+		
+		
 
 	
 	}
