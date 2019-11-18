@@ -10,6 +10,10 @@ public class MethodLibrary {
 		
 		System.out.println((velocityConversion(100)));
 		
+		System.out.println((kineticEnergy(5, 5)));
+		
+		System.out.println((potentialEnergy(2, 5)));
+		
 	   }
 /**
  * Omvandlar Fahrenheit till Kelvin.
@@ -34,10 +38,29 @@ public class MethodLibrary {
  */
     public static double velocityConversion(double velocityKmH) {
         return (velocityKmH)/3.6;
-
-    public static double kineticEnergy(double mass, double velocity) {
-        
     }
+/**
+ * Räknar ut kinetisk energi med massa och hastighet.
+ * @param mass
+ * @param velocity
+ * @return
+ */
+    public static double kineticEnergy(double mass, double velocity) {
+    	return (mass*velocity*velocity/2);
+    }
+/**
+ * Räknar ut potentiell energi med massa och höjd.
+ * @param mass
+ * @param height
+ * @return
+ */
+    public static double potentialEnergy(double mass, double height) {
+    	return (mass*9.82*height);
+    }
+    
+    double delta(double first, double second, double last) {
+    
+
             
 	}
 
