@@ -7,6 +7,7 @@
 	<classpathentry kind="src" path="v46"/>
 	<classpathentry kind="src" path="arrays"/>
 	<classpathentry kind="src" path="switchcase2"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="w3"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
