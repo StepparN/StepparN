@@ -8,6 +8,8 @@
 	<classpathentry kind="src" path="arrays"/>
 	<classpathentry kind="src" path="switchcase2"/>
 	<classpathentry kind="src" path="w3"/>
+	<classpathentry kind="src" path="w4"/>
+	<classpathentry kind="src" path="v9"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
