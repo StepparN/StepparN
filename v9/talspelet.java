@@ -14,6 +14,29 @@ public class talspelet {
 		System.out.println("(3) - Svårt");
 		
 		int choice = input.nextInt();
+		
+		switch (choice) {
+		
+		case 1:
+		    System.out.println("Du har valt svårighetsgraden Enkelt.");
+		    int min1 = 0;
+		    int max1 = 100;
+		    break;
+		
+		case 2:
+			System.out.println("Du har valt svårighetsgraden Medelsvårt.");
+			int min2 = 0;
+			int max2 = 100;
+			break;
+			
+		case 3:
+			System.out.println("Du har valt svårighetsgraden Svårt.");
+			int min3 = 0;
+			int max3 = 100;
+			break;
+		
+		
+		}
   
 	}
 
