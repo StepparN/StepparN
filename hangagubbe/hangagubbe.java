@@ -10,9 +10,9 @@ public class hangagubbe {
 		Random random = new Random();
 		
 			String[] ord = { "SANDLÅDA", "PARFYM", "GITARR", "LEKPLATS", "SMÖRGÅS", "DATOR",
-			"PENNA", "SKÅL", "PAPPER", "VÄSKA"};
+			"PENNA", "SKÅL", "PAPPER", "VÄSKA"}; //* Här är  orden som används och koden som slumpar orden
 			
-			boolean spela = true;
+			boolean spela = true; 
 			while (spela) { 
 				System.out.println("Välkommen till hänga gubbe, du får 10 gissningar på dig.");
 				char[]slumpatord = ord[random.nextInt(ord.length)].toCharArray();
@@ -23,15 +23,15 @@ public class hangagubbe {
 				}
 				
 				int försök = 0;
-				boolean gissatord = false;
+				boolean gissatord = false; 
 				
 				while (!gissatord && försök != Gissningar) {
 					System.out.println("Gissningar:" + försök);
 					printArray(Spelargissning);
-					System.out.printf("Du har %d försök kvar \n", Gissningar - försök);
-					System.out.println("Skriv en bokstav");
+					System.out.printf("Du har %d försök kvar \n", Gissningar - försök); //* Information om hur många försök man har kvar
+					System.out.println("Skriv en bokstav"); //* Information om vad man ska göra
 					försök++;
-					char input = scanner.next().toUpperCase().charAt(0);
+					char input = scanner.next().toUpperCase().charAt(0); //* Gör så att det inte spelar någon roll om man använder stora eller små bokstäver
 					if (input == '_') {
 						spela = false;
 						gissatord = true;
@@ -42,7 +42,7 @@ public class hangagubbe {
 		            }
 							}
 					if(rättord(Spelargissning)){
-						gissatord = true;
+						gissatord = true; //* Kollar om man gissade rätt
 						System.out.println("Du vann!");
 					}
 					}
